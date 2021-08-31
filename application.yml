@@ -1,0 +1,12 @@
+# 这个3344项目只是为了读取配置，不干别的事，我这里配了 2 套环境为了测试，
+
+spring:
+  profiles: dev
+  application:
+    name: springcloud-config-dev
+    
+---
+spring:
+  profiles: test
+  application:
+    name: springcloud-config-test
